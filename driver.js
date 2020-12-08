@@ -28,7 +28,7 @@ const checkPromise = () => {
     return new Promise((resolve) => {
         setTimeout(() => {
             if (checkCount == 5) resolve();
-        }, 0);
+        }, 120);
     });
 }
 
